@@ -24,12 +24,12 @@ Before you go any further, it is better to go through the article I published on
 ## 2. Get an AWS account
 You need the to have the following:
 1. Enough permission to run CloudFormation Template to create all the resorces needed.
-2. You need a domain configured in Route53. You can buy a cheap one from inside Route53
+2. You need 2x domains (Yours and the Attacker's) configured in Route53. You can buy a cheap one from inside Route53
  
 ## 3. Reach out to get access to the software and update the temaplte
 At the begining of the template there are 2 parameters that must be set namely log4jShellAttackSFilesUserAccessKeyId and log4jShellAttackSFilesUserSecretAccessKey. Without setting these parameters, the CloudFormation template won't be able to access the software to build the software stacks required.
 
-Message me on linkedin at https://au.linkedin.com/in/adamalinsky/
+Message me on linkedin at https://au.linkedin.com/in/adamalinsky/ to get your keys
 
 ## 4. Run the template
 
