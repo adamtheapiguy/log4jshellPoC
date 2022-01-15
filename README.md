@@ -78,6 +78,24 @@ Access is only allowed from the console using AWS Session Manager due to the fol
 
 ![alt text](https://github.com/adamtheapiguy/log4jshellPoC/blob/main/media-assets/09-connect-to-ec2-instance.png?raw=true)
 
+```
+
+$ sudo su - appapi
+
+```
+
+```
+
+$ sudo su - mhttp
+$ sudo su - mldap
+$ sudo su - bmaster
+
+```
+
+![alt text](https://github.com/adamtheapiguy/log4jshellPoC/blob/main/media-assets/11-YourEc2Instance.png?raw=true)
+
+![alt text](https://github.com/adamtheapiguy/log4jshellPoC/blob/main/media-assets/12-AttackerEc2Instance.png?raw=true)
+
 ## log4jShell Demo Video
 
 [![Log4jShell Demo](https://img.youtube.com/vi/ol5eiFGly4I/0.jpg)](http://www.youtube.com/watch?v=ol5eiFGly4I "Click to Play On YouTube.com")
