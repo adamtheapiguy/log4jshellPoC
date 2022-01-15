@@ -50,15 +50,21 @@ You have 2 options to run the CloudFormation Template. Run it in one click by cl
 
 ![alt text](https://github.com/adamtheapiguy/log4jshellPoC/blob/main/media-assets/04-CF.png?raw=true)
 
-5. After you receive your log4jShellAttackSFilesUserAccessKeyId and log4jShellAttackSFilesUserSecretAccessKey add their values and select your hosted zone resource.
+5. After you receive your log4jShellAttackSFilesUserAccessKeyId and log4jShellAttackSFilesUserSecretAccessKey add their values.
 
 ![alt text](https://github.com/adamtheapiguy/log4jshellPoC/blob/main/media-assets/05-CF.png?raw=true)
 
-6. Acknowledge IAM resources to be created and click "Create Stack"
+6. Select your HostedZone Resource for YourInfrastructure and Attacker Infrastructure.
+
+![alt text](https://github.com/adamtheapiguy/log4jshellPoC/blob/main/media-assets/051-CF.png?raw=true)
+
+![alt text](https://github.com/adamtheapiguy/log4jshellPoC/blob/main/media-assets/052-CF.png?raw=true)
+
+7. Acknowledge IAM resources to be created and click "Create Stack"
 
 ![alt text](https://github.com/adamtheapiguy/log4jshellPoC/blob/main/media-assets/06-CF.png?raw=true)
 
-7. Wait a few minutes (around 7 minutes) for the stack to be created
+8. Wait a few minutes (around 7 minutes) for the stack to be created
 
 ![alt text](https://github.com/adamtheapiguy/log4jshellPoC/blob/main/media-assets/07-CF.png?raw=true)
 
