@@ -5,7 +5,7 @@ This guide shows how to setup Git in your machine and create a feature branch
 
 1. Generate SSH keys for your github account
 ```
-$ ssh-keygen -t rsa -C "john.appleseed@myprototype.io" -f ~/.ssh/github
+$ ssh-keygen -t rsa -b 4096 -C "john.appleseed@myprototype.io" -f ~/.ssh/github
 ```
 You should be able to see the ssh public key under ~/.ssh/{KeyFileNameForAccount1}.pub. You would use that later on to configure your Github account
 
